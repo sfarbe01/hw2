@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>HW assignment one</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="hw2.js"></script>
+        <h1>Number form</h1>   
+        <form name="mathForm">
+            Enter numbers here:
+            <textarea placeholder="You can type into this textarea all day long if you'd like to, but without a submit button to click all of your hard work will just be wasted." id="textarea"></textarea>
+            <button onclick="mathHappen(event)">Make math happen</button>
+            <button onclick="resetButton(event)">Reset</button>
+            <br>
+            <br>
+            <h1> The Numbers</h1>
+            Count:<p id="count"></p>
+            <br>
+            Sum: <p id="sum"></p>
+            <br>
+            Average: <p id="avg"></p>
+            <br>
+            <h1> The Strings</h1>
+            Number of strings: <p id="strings"></p>
+            <br>
+            Accumulated concatenation: <p id="accum"></p>
+    
+        </form>  
+    </body>
+</html>
